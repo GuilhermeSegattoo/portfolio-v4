@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import phone from '../assets/phone.png'
-import mail from '../assets/mail.png'
+import phone from '../assets/Iphone.png'
+import mail from '../assets/gmail.png'
 
 const Contato = () => {
   return (
@@ -9,7 +9,7 @@ const Contato = () => {
         <div className='flex justify-center items-center'>
           <ul className='space-y-4'> 
               <li className='flex items-center'>
-                 <Image src={phone} alt='Phone' className='h-[110px] w-auto mr-6'/>
+                 <Image src={phone} alt='Phone' className='h-[110px] w-auto mr-6 ml-6'/>
                  <p className='text-xl'>+55 61 99955-2805</p>
               </li>
               <li className='flex items-center'>
@@ -20,7 +20,7 @@ const Contato = () => {
         </div>
 
         <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
-          <h2 className='text-5xl font-bold text-orange-700 mb-4'>Vamos conversar</h2>
+          <h2 className='text-5xl font-bold text-blue-900 mb-4'>Vamos conversar</h2>
           <p className='text-white/70 mb-6'>Me mande uma mensagem e vamos dar vida ao seu projeto!</p>
           <form className='space-y-4' action="https://getform.io/f/axojdgob" method="POST">
              <div className='grid md:grid-cols-2 gap-4'>
