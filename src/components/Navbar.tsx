@@ -3,11 +3,11 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { motion } from "framer-motion";
-import { li } from "framer-motion/client";
 
 const navLinks = [
     { title: "Sobre", path: "#Sobre" },
     { title: "Projetos", path: "#Projetos" },
+    { title: "Currículo", path: "#CurriculoDevSoftware.pdf"}
 ];
 
 const Navbar = () => {
@@ -48,7 +48,7 @@ const Navbar = () => {
 
                     <li>
                         <a href="#Contato" className="group">
-                            <h1 className="text-lg font-bold text-white/70 cursor-pointer">Contate-me</h1>
+                            <h1 className="text-sm font-bold text-white/70 cursor-pointer w-max ">Fale comigo</h1>
                             <div className="relative">
                                 <div className="absolute w-2/3 h-1 transition-all duration-300 ease-out bg-blue-900 rounded-full 
                             group-hover:w-full">

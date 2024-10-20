@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import aboutImg from "../assets/profilepic.png";
 import book from "../assets/book.png";
 import pc from "../assets/pc.png";
 import card from "../assets/card.png";
@@ -9,7 +8,7 @@ import finance from "../assets/finance.png";
 
 const About = () => {
   return (
-    <div className="max-w-[1100px] mx-auto my-10" id="about">
+    <div className="max-w-[1100px] mx-auto my-10" id="Sobre">
 
       <h1 className="text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4">About<span className="text-blue-950"> Me</span></h1>
 

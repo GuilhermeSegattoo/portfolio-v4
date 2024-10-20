@@ -1,9 +1,10 @@
 "use client"
 import Image from "next/image";
-import cursor from "../assets/icon1.png";
-import lightning from "../assets/icon2.png";
+import cursor from "../assets/lampada.png";
 import { motion } from "framer-motion";
 import profilepic from "../assets/avatar.png"
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
+
 
 const Hero = () => {
     return (
@@ -18,27 +19,14 @@ const Hero = () => {
                     <h1 className="text-[#e4e4e4]">Dev <span className="text-[#3747f5]">Segatto</span>!</h1>
                 </div>
 
+
+
                 <motion.div
-                    className="absolute left-[230px] top-[170px]"
+                    className="absolute right-[220px] top-[-40px]"
                     drag
                 >
                     <Image
                         src={cursor}
-                        height="170"
-                        width="170"
-                        alt="cursor"
-                        className=""
-                        draggable="false"
-                    />
-
-                </motion.div>
-
-                <motion.div
-                    className="absolute right-[220px] top-[-130px]"
-                    drag
-                >
-                    <Image
-                        src={lightning}
                         height="120"
                         width="120"
                         alt="cursor"
@@ -49,7 +37,7 @@ const Hero = () => {
                 </motion.div>
 
                 <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
-                Desenvolvedor front-end com conhecimentos em back-end e atualmente programando em javascript e typescript. 
+                    Desenvolvedor front-end com conhecimentos em back-end e atualmente programando em javascript e typescript.
                 </p>
 
                 <Image
@@ -57,6 +45,17 @@ const Hero = () => {
                     alt="profile picture"
                     className="h-auto w-auto mx-auto"
                 />
+                <div className='flex justify-center items-center space-x-5 mt-4'>
+                    <a href="https://www.linkedin.com/in/guilhermesegatto/" className='hover:text-gray-300'>
+                        <FaLinkedin size={34} />
+                    </a>
+                    <a href="https://github.com/GuilhermeSegattoo" className='hover:text-gray-300'>
+                        <FaGithub size={34} />
+                    </a>
+                    <a href="https://www.instagram.com/segatto.developer/" className='hover:text-gray-300'>
+                        <FaInstagram size={34} />
+                    </a>
+                </div>
             </div>
         </div>
     )
