@@ -12,10 +12,10 @@ const About = () => {
 
       <h1 className="text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4">About<span className="text-blue-600"> Me</span></h1>
 
-      <div className="grid grid-cols-8 gap-4 place-items-center">
+      <div className="px-6 md:p-0 grid md:grid-cols-8 gap-4 place-items-center">
         
         {/* Formação */}
-        <div className="w-full col-span-5 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
+        <div className="w-full md:col-span-5 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-700 to-blue-800 opacity-30 animate-gradient-xy"></div>
           <div className="flex flex-row items-center p-4">
             <Image src={book} alt="book" className="w-auto h-[100px]" />
@@ -30,7 +30,7 @@ const About = () => {
         </div>
 
         {/* Competência */}
-        <div className="w-full col-span-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
+        <div className="w-full md:col-span-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-700 to-blue-800 opacity-30 animate-gradient-xy"></div>
           <div className="flex flex-row items-center p-4">
             <Image src={finance} alt="finance" className="w-auto h-[100px]" />
@@ -44,7 +44,7 @@ const About = () => {
         </div>
 
         {/* Experiência */}
-        <div className="w-full col-span-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
+        <div className="w-full md:col-span-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-700 to-blue-800 opacity-30 animate-gradient-xy"></div>
           <div className="flex flex-row items-center p-4">
             <Image src={card} alt="card" className="w-auto h-[100px]" />
@@ -58,7 +58,7 @@ const About = () => {
         </div>
 
         {/* Habilidades técnicas */}
-        <div className="w-full col-span-5 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
+        <div className="w-full md:col-span-5 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden p-4">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-700 to-blue-800 opacity-30 animate-gradient-xy"></div>
           <div className="flex flex-row items-center p-4">
             <Image src={pc} alt="pc" className="w-auto h-[100px]" />

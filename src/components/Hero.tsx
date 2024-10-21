@@ -22,7 +22,7 @@ const Hero = () => {
 
 
                 <motion.div
-                    className="absolute right-[220px] top-[-70px]"
+                    className="hidden md:block absolute right-[220px] top-[-70px]"
                     drag
                 >
                     <Image
