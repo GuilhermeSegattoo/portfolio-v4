@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className="max-w-[1100px] mx-auto my-10" id="Sobre">
 
-      <h1 className="text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4">About<span className="text-blue-950"> Me</span></h1>
+      <h1 className="text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4">About<span className="text-blue-600"> Me</span></h1>
 
       <div className="grid grid-cols-8 gap-4 place-items-center">
         

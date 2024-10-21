@@ -2,12 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import phone from '../assets/wpp.png'
 import mail from '../assets/gmail.png'
+import conversa from '../assets/conversando.png'
 
 const Contato = () => {
   return (
     <div className='max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8' id='Contato'>
         <div className='flex justify-center items-center'>
-       
+        <Image src={conversa} alt='conversa' className=''/>
         </div>
 
         <div className='bg-blue-950 p-6 rounded-xl max-w-[550px]'>

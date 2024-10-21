@@ -6,15 +6,15 @@ import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaRunning,FaTasks, FaLeaf, FaF
 const skillIcons = [
     {icon: <FaHtml5 size={140}/>, label: "HTML" },
     {icon: <FaCss3Alt size={140}/>, label: "CSS" },
-    {icon: <FaReact size={140}/>, label: "React" },
     {icon: <FaJsSquare size={140}/>, label: "JavaScript" },
-    {icon: <FaTasks size={140}/>, label: "Scrum" },
-    {icon: <FaLeaf size={140}/>, label: "MongoDB" },
+    {icon: <FaReact size={140}/>, label: "React" },
+    {icon: <FaCode size={140}/>, label: "Next.js" },
     {icon: <FaFileCode size={140}/>, label: "Swagger" },
     {icon: <FaNetworkWired size={140}/>, label: "API REST" },
-    {icon: <FaShieldAlt size={140}/>, label: "JWT" },
     {icon: <FaDatabase size={140}/>, label: "CRUD" },
-    {icon: <FaCode size={140}/>, label: "Next.js" },
+    {icon: <FaShieldAlt size={140}/>, label: "JWT" },
+    {icon: <FaLeaf size={140}/>, label: "MongoDB" },
+    {icon: <FaTasks size={140}/>, label: "Scrum" },
     {icon: <FaRunning size={140}/>, label: "Proatividade" },
 ]
 

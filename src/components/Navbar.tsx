@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const navLinks = [
     { title: "Sobre", path: "#Sobre" },
     { title: "Projetos", path: "#Projetos" },
-    { title: "Currículo", path: "#CurriculoDevSoftware.pdf"}
+    { title: "Currículo", path: "/CurriculoDevSoftware.pdf"}
 ];
 
 const Navbar = () => {

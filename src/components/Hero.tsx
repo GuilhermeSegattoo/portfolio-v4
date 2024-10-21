@@ -22,7 +22,7 @@ const Hero = () => {
 
 
                 <motion.div
-                    className="absolute right-[220px] top-[-40px]"
+                    className="absolute right-[220px] top-[-70px]"
                     drag
                 >
                     <Image
