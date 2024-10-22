@@ -22,8 +22,7 @@ const About = () => {
             <div className="flex flex-col ml-4">
               <h2 className="text-xl font-bold text-white/80">Formação</h2>
               <p className="text-lg text-white/70 mt-2">
-                Estou me formando em Análise e Desenvolvimento de Sistemas e meu
-                foco está nas tecnologias React, Next.js e Tailwind CSS.
+                Estou me formando em Análise e Desenvolvimento de Sistemas 
               </p>
             </div>
           </div>
@@ -37,7 +36,7 @@ const About = () => {
             <div className="flex flex-col ml-4">
               <h2 className="text-xl font-bold text-white/80">Competência</h2>
               <p className="text-lg text-white/70 mt-2">
-                Eu resolvo desafios usando uma mentalidade lógica
+                Desenvolvo software completos desde uma landing-page até um e-commerce.
               </p>
             </div>
           </div>
@@ -51,7 +50,7 @@ const About = () => {
             <div className="flex flex-col ml-4">
               <h2 className="text-xl font-bold text-white/80">Experiência</h2>
               <p className="text-lg text-white/70 mt-2">
-                Confira os diversos projetos logo abaixo
+                Já fui do time da Infraestrutura da TI, do suporte e hoje sou desenvolvedor web!
               </p>
             </div>
           </div>
@@ -65,7 +64,7 @@ const About = () => {
             <div className="flex flex-col ml-4">
               <h2 className="text-xl font-bold text-white/80">Habilidades técnicas</h2>
               <p className="text-lg text-white/70 mt-2">
-              Full-Stack developer, criando aplicações modernas e seguras com React, Next.js, Tailwind CSS, Styled-Components, Swagger, JWT e MongoDB.
+              Full-Stack developer, criando aplicações modernas e seguras com React, Next.js, TailwindCSS, Swagger, JWT e MongoDB.
               </p>
             </div>
           </div>

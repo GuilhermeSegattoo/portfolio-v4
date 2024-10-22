@@ -36,7 +36,7 @@ const Hero = () => {
 
                 </motion.div>
 
-                <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
+                <p className="text-center font-100 text-xl max-w-[500px] mx-auto mt-8 text-white/80">
                     Desenvolvedor front-end com conhecimentos em back-end e atualmente programando em javascript e typescript.
                 </p>
 

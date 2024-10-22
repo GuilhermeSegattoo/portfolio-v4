@@ -9,14 +9,6 @@ import project4 from "../assets/foodDel.png"
 
 const projects = [
     {
-        title: "Landing-page Infor Gerencial",
-        desc: "Landing page criada para a empresa Infor Gerencial, projeto feito para melhorar a do site da empresa.",
-        devStack: "Next.js, TailwindCSS e Typescript",
-        link: "https://infor-gerencial-landpage.vercel.app/",
-        git: "https://github.com/GuilhermeSegattoo/inforGerencial-landpage",
-        src: project
-    },
-    {
         title: "Landing-page Fruto Davide Decorações",
         desc: "Landing page criada para a empresa Fruto Davide, projeto feito para ser o site de vendas.",
         devStack: "React, Styled-Components e JavaScript",
@@ -25,21 +17,30 @@ const projects = [
         src: project3
     },
     {
-        title: "Landing-page Orbita Software-House",
-        desc: "Landing page criada para a Organização Orbita, projeto feito para ser o site de vendas.",
-        devStack: "Next.js, TailwindCSS e Typescript",
-        link: "https://orbitalanding-dev.vercel.app",
-        git: "https://github.com/GuilhermeSegattoo/orbitaLandingPage",
-        src: project2
-    },
-    {
         title: "Sistema Food Delivery",
         desc: "Sistema completo com front end, back-end e tela de admin para restaurantes com getway de pagamento e tela de login.",
         devStack: "React, CSS, Express, MongoDB e JavaScript",
         link: "#",
         git: "https://github.com/GuilhermeSegattoo/Food-Del",
         src: project4
+    },
+    {
+        title: "Landing-page Infor Gerencial",
+        desc: "Landing page criada para a empresa Infor Gerencial, projeto feito para melhorar a do site da empresa.",
+        devStack: "Next.js, TailwindCSS e Typescript",
+        link: "https://infor-gerencial-landpage.vercel.app/",
+        git: "https://github.com/GuilhermeSegattoo/inforGerencial-landpage",
+        src: project
+    },
+    {
+        title: "Landing-page Orbita Software-House",
+        desc: "Landing page criada para a Organização Orbita, projeto feito para ser o site de vendas.",
+        devStack: "Next.js, TailwindCSS e Typescript",
+        link: "https://orbitalanding-dev.vercel.app",
+        git: "https://github.com/GuilhermeSegattoo/orbitaLandingPage",
+        src: project2
     }
+  
 
 ]
 
