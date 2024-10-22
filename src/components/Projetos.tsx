@@ -20,7 +20,7 @@ const projects = [
         title: "Sistema Food Delivery",
         desc: "Sistema completo com front end, back-end e tela de admin para restaurantes com getway de pagamento e tela de login.",
         devStack: "React, CSS, Express, MongoDB e JavaScript",
-        link: "#",
+        link: "https://food-delivery-e5rwic1dc-guilherme-segattos-projects.vercel.app",
         git: "https://github.com/GuilhermeSegattoo/Food-Del",
         src: project4
     },
@@ -51,7 +51,7 @@ const Projetos = () => {
             <h1 className="text-white text-4xl max-w-[320px] mx-auto font-semibold my-12">Meus<span className="text-blue-600"> Projetos</span></h1>
 
 
-            <div className='px-6 md:px-0 max-w-[1000px] mx-auto mt-32 space-y-24'>
+            <div className='px-6 md:px-0 max-w-[1200px] mx-auto mt-32 space-y-24'>
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}

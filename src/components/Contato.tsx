@@ -14,7 +14,7 @@ const Contato = () => {
         <div className='bg-blue-950 p-6 rounded-xl max-w-[550px]'>
           <h2 className='text-5xl font-bold text-white mb-4'>Vamos conversar!</h2>
           <p className='text-white/70 text-2xl font-extralight mb-1'>Me mande uma mensagem e vamos dar vida ao seu projeto</p>
-          <ul className='space-y-4 flex flex-col-reverse'> 
+          <ul className='space-y-4  flex-col-reverse hidden md:block'> 
               <li className='flex items-center'> 
                  <p className='text-xl'>+55 61 99955-2805</p>
                  <Image src={phone} alt='Phone' className='h-[30px] w-auto  ml-6'/>
